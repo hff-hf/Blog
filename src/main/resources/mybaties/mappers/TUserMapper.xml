@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hff.mappers.TUserMapper">
+
+    <select id="checkUser" parameterType="TUser" resultType="TUser">
+
+        select * from user
+        where user_name=#{userName} and password=#{password}
+
+    </select>
+
+
+
+    <insert id="insertUser" parameterType="TUser">
+        insert into user(email,nick_name,password,user_name,head)
+        values (#{email},#{nickName},#{password},#{userName},#{head})
+    </insert>
+
+
+    <select id="selectByPrimaryKey" parameterType="Long" resultType="TUser">
+        select * from user
+        where us_id=#{usId}
+    </select>
+
+
+    <select id="userAndBlogs" resultMap="userAndBlogs">
+       SELECT DISTINCT u.*,b.* FROM user u INNER JOIN blog b
+        on u.us_id=b.user_id
+        ORDER BY b.create_time DESC
+    </select>
+
+    <select id="userAndBlogsBycontentAndTitle" parameterType="TBlog" resultMap="userAndBlogs">
+       SELECT DISTINCT u.*,b.* FROM user u INNER JOIN blog b
+        on u.us_id=b.user_id
+        where
+        b.content like #{content} or b.title like #{title}
+    </select>
+
+
+    <select id="userAndBlogsByTagId" parameterType="Long" resultMap="userAndBlogs">
+      	SELECT user.*,blog.*  from user,blog
+				where user.us_id=blog.user_id
+				and blog.b_id in(
+								SELECT bt.blog_id from blog_tag bt
+								where bt.tag_id=#{id}
+								)
+    </select>
+
+
+    <select id="userAndBlogsByTypeId" parameterType="Long" resultMap="userAndBlogs">
+		select tb.*,tu.*
+        from blog tb inner JOIN user tu
+        on tb.user_id=tu.us_id
+        where tb.type_id=#{id}
+    </select>
+
+
+    <select id="checkNickName" parameterType="String" resultType="TUser">
+        select * from user
+        where nick_name=#{nickName}
+    </select>
+
+    <select id="userAndBlogByBlogId" parameterType="Long" resultMap="userAndBlogs">
+	 select tb.*,tu.*
+        from blog tb inner JOIN user tu
+        on tb.user_id=tu.us_id
+        where tb.b_id=#{bId}
+    </select>
+
+
+
+
+    <resultMap id="userAndBlogs" type="TUser">
+        <id column="us_id" jdbcType="BIGINT" property="usId" />
+        <result column="email" jdbcType="VARCHAR" property="email" />
+        <result column="nick_name" jdbcType="VARCHAR" property="nickName" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+        <result column="user_name" jdbcType="VARCHAR" property="userName" />
+        <result column="head" jdbcType="VARCHAR" property="head" />
+
+        <collection property="blogs" ofType="TBlog">
+            <id column="b_id" jdbcType="BIGINT" property="bId" />
+            <result column="browse_time" jdbcType="INTEGER" property="browseTime" />
+            <result column="content" jdbcType="VARCHAR" property="content" />
+            <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+            <result column="image" jdbcType="VARCHAR" property="image" />
+            <result column="sign" jdbcType="VARCHAR" property="sign" />
+            <result column="title" jdbcType="VARCHAR" property="title" />
+            <result column="type_id" jdbcType="BIGINT" property="typeId" />
+            <result column="user_id" jdbcType="BIGINT" property="userId" />
+
+        </collection>
+    </resultMap>
+
+
+    <!--<resultMap id="UserAndCommentsMapper" type="TUser">-->
+        <!--<id column="us_id" jdbcType="BIGINT" property="usId" />-->
+        <!--<result column="email" jdbcType="VARCHAR" property="email" />-->
+        <!--<result column="nick_name" jdbcType="VARCHAR" property="nickName" />-->
+        <!--<result column="password" jdbcType="VARCHAR" property="password" />-->
+        <!--<result column="user_name" jdbcType="VARCHAR" property="userName" />-->
+        <!--<result column="head" jdbcType="VARCHAR" property="head" />-->
+
+        <!--<collection property="comments" ofType="TComment">-->
+            <!--<id column="c_id" jdbcType="BIGINT" property="cId" />-->
+            <!--<result column="content" jdbcType="VARCHAR" property="content" />-->
+            <!--<result column="create_time" jdbcType="TIMESTAMP" property="createTime" />-->
+            <!--<result column="email" jdbcType="VARCHAR" property="email" />-->
+            <!--<result column="head" jdbcType="VARCHAR" property="head" />-->
+            <!--<result column="nick_name" jdbcType="VARCHAR" property="nickName" />-->
+            <!--<result column="blog_id" jdbcType="BIGINT" property="blogId" />-->
+        <!--</collection>-->
+
+    <!--</resultMap>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</mapper>

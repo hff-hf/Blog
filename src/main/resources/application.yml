@@ -1,0 +1,54 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test_base?serverTimezone=UTC&useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
+    username: Utest
+    password: 520
+    # druid \u914D\u7F6E
+    dbType: mysql   # \u6307\u5B9A\u6570\u636E\u5E93\u7C7B\u578B mysql
+    initialSize: 5  # \u542F\u52A8\u521D\u59CB\u5316\u8FDE\u63A5\u6570\u91CF
+    minIdle: 5      # \u6700\u5C0F\u7A7A\u95F2\u8FDE\u63A5
+    maxActive: 20   # \u6700\u5927\u8FDE\u63A5\u6570\u91CF\uFF08\u5305\u542B\u4F7F\u7528\u4E2D\u7684\u548C\u7A7A\u95F2\u7684\uFF09
+    maxWait: 60000  # \u6700\u5927\u8FDE\u63A5\u7B49\u5F85\u65F6\u95F4 \uFF0C\u8D85\u51FA\u65F6\u95F4\u62A5\u9519
+    timeBetweenEvictionRunsMillis: 60000  # \u8BBE\u7F6E\u6267\u884C\u4E00\u6B21\u8FDE\u63A5\u56DE\u6536\u5668\u7684\u65F6\u95F4
+    minEvictableIdleTimeMillis: 300000   # \u8BBE\u7F6E\u65F6\u95F4\uFF1A \u8BE5\u65F6\u95F4\u5185\u6CA1\u6709\u4EFB\u4F55\u64CD\u4F5C\u7684\u7A7A\u95F2\u8FDE\u63A5\u4F1A\u88AB\u56DE\u6536
+    validationQuery: select 'x'         # \u9A8C\u8BC1\u8FDE\u63A5\u6709\u6548\u6027\u7684sql
+    testWhileIdle: true             # \u7A7A\u95F2\u65F6\u6821\u9A8C
+    testOnBorrow: false  # \u4F7F\u7528\u4E2D\u662F\u5426\u6821\u9A8C\u6709\u6548\u6027
+    testOnReturn: false  # \u5F52\u8FD8\u8FDE\u63A5\u6C60\u65F6\u662F\u5426\u6821\u9A8C
+    poolPreparedStatements: false  # mysql \u4E0D\u63A8\u8350\u6253\u5F00\u9884\u5904\u7406\u8FDE\u63A5\u6C60
+    filters: stat,wall,logback  #\u8BBE\u7F6E\u8FC7\u6EE4\u5668 stat\u7528\u4E8E\u63A5\u6536\u72B6\u6001\uFF0Cwall\u9632\u6B62sql\u6CE8\u5165\uFF0Clogback\u8BF4\u660E\u4F7F\u7528logback\u8FDB\u884C\u65E5\u5FD7\u8F93\u51FA
+    userGlobalataSourceStat: true  # \u7EDF\u8BA1\u6240\u6709\u6570\u636E\u6E90\u72B6\u6001
+    connectionProperties: druid.stat.mergSql=true;druid.stat.slowSqlMillis=500  # sql\u5408\u5E76\u7EDF\u8BA1 \u8BBE\u7F6E\u6162sql\u65F6\u95F4\u4E3A500\uFF0C\u8D85\u8FC7500 \u4F1A\u6709\u8BB0\u5F55\u63D0\u793A
+
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+  servlet:
+    multipart:
+      max-request-size: 10MB
+      file-size-threshold: 10MB
+
+
+mybatis:
+  mapper-locations: classpath:mybaties/mappers/*.xml
+  type-aliases-package: com.hff.entity
+  config-location: classpath:mybaties/mybatis.xml
+mapper:
+  mappers:
+    - com.hff.mappers.TBlogMapper
+  not-empty: false
+  identity: MYSQL
+
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+
+logging:
+  level:
+    root: info
+    com.hff.myController: debug
+    com.hff.myAspects: debug
+  path: ./logs

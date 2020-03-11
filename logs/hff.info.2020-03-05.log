@@ -1,0 +1,823 @@
+2020-03-05 14:19:16 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12520 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 14:19:16 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 14:19:16 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 14:19:16 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 14:19:17 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 14:19:18 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 14:19:18 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 14:19:18 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 14:19:18 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 14:19:18 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 14:19:18 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2073 ms
+2020-03-05 14:19:19 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 14:19:23 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 14:19:23 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 14:19:23 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 14:19:23 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 8.562 seconds (JVM running for 11.03)
+2020-03-05 14:19:34 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 14:19:34 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 14:19:34 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-05 14:19:35 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 14:19:35 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 14:19:46 [http-nio-8080-exec-6] INFO  com.hff.component.MyHandlerItercept - /view/blog/nextPagehttp://localhost:8080/view/blog/nextPage
+2020-03-05 14:19:46 [http-nio-8080-exec-6] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 14:20:39 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /view/typehttp://localhost:8080/view/type
+2020-03-05 14:20:44 [http-nio-8080-exec-10] INFO  com.hff.component.MyHandlerItercept - /view/taghttp://localhost:8080/view/tag
+2020-03-05 14:20:55 [http-nio-8080-exec-6] INFO  com.hff.component.MyHandlerItercept - /view/aboutMehttp://localhost:8080/view/aboutMe
+2020-03-05 16:38:09 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 3840 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 16:38:09 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 16:38:09 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 16:38:09 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 16:38:10 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 16:38:11 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 16:38:11 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 16:38:11 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 16:38:11 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 16:38:11 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 16:38:11 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1234 ms
+2020-03-05 16:38:11 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'admin'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminImpl': Unsatisfied dependency expressed through field 'adminMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminMapper' defined in file [E:\IDEA\MyBlog\target\classes\com\hff\mappers\AdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\IDEA\MyBlog\target\classes\mybaties\mappers\TBlogMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\IDEA\MyBlog\target\classes\mybaties\mappers\TBlogMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'TBlogMapper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: TBlogMapper
+2020-03-05 16:38:11 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-05 16:38:11 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-05 16:38:11 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-05 16:43:51 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12656 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 16:43:51 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 16:43:51 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 16:43:51 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 16:43:51 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 16:43:52 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 16:43:52 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 16:43:52 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 16:43:52 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 16:43:52 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 16:43:52 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1150 ms
+2020-03-05 16:43:52 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'admin'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminImpl': Unsatisfied dependency expressed through field 'adminMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminMapper' defined in file [E:\IDEA\MyBlog\target\classes\com\hff\mappers\AdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\IDEA\MyBlog\target\classes\mybaties\mappers\TBlogMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\IDEA\MyBlog\target\classes\mybaties\mappers\TBlogMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'TBlogMapper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: TBlogMapper
+2020-03-05 16:43:52 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-05 16:43:52 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-05 16:43:52 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-05 17:01:49 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 9944 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:01:49 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:01:49 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:01:49 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:01:50 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:01:50 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:01:50 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:01:50 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:01:50 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:01:50 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:01:50 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 997 ms
+2020-03-05 17:01:50 [restartedMain] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminController': Unsatisfied dependency expressed through field 'admin'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminImpl': Unsatisfied dependency expressed through field 'adminMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'adminMapper' defined in file [E:\IDEA\MyBlog\target\classes\com\hff\mappers\AdminMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [tk/mybatis/mapper/autoconfigure/MapperAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\IDEA\MyBlog\target\classes\mybaties\mappers\TBlogMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\IDEA\MyBlog\target\classes\mybaties\mappers\TBlogMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'TBlogMapper'.  Cause: java.lang.ClassNotFoundException: Cannot find class: TBlogMapper
+2020-03-05 17:01:50 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2020-03-05 17:01:50 [restartedMain] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-03-05 17:01:50 [restartedMain] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-05 17:03:53 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 9488 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:03:53 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:03:53 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:03:53 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:03:53 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:03:54 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:03:54 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:03:54 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:03:54 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:03:54 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:03:54 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1069 ms
+2020-03-05 17:03:54 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:03:55 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:03:55 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:03:55 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:03:55 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.667 seconds (JVM running for 3.355)
+2020-03-05 17:04:16 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:04:16 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:04:16 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-05 17:08:07 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 1784 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:08:07 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:08:07 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:08:07 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:08:07 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:08:08 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:08:08 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:08:08 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:08:08 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:08:08 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:08:08 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1164 ms
+2020-03-05 17:08:08 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:08:08 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:08:09 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:08:09 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:08:09 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.44 seconds (JVM running for 3.097)
+2020-03-05 17:08:54 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 4740 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:08:54 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:08:54 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:08:54 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:08:55 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:08:55 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:08:55 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:08:55 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:08:55 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:08:55 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:08:55 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 982 ms
+2020-03-05 17:08:56 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:08:56 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:08:56 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:08:56 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:08:56 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.594 seconds (JVM running for 3.652)
+2020-03-05 17:10:09 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12492 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:10:09 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:10:09 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:10:09 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:10:10 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:10:10 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:10:10 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:10:10 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:10:10 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:10:10 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:10:10 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1120 ms
+2020-03-05 17:10:11 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:10:11 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:10:11 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:10:11 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:10:11 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.656 seconds (JVM running for 3.298)
+2020-03-05 17:10:25 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:10:25 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:10:25 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-05 17:10:25 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:10:26 [http-nio-8080-exec-9] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 17:10:26 [http-nio-8080-exec-9] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:11:19 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 8932 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:11:19 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:11:19 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:11:19 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:11:20 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:11:20 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:11:20 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:11:20 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:11:20 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:11:20 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:11:20 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 970 ms
+2020-03-05 17:11:21 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:11:21 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:11:21 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:11:21 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:11:21 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.368 seconds (JVM running for 3.11)
+2020-03-05 17:11:31 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:11:31 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:11:31 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-03-05 17:11:31 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:13:57 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12556 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:13:57 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:13:57 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:13:57 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:13:57 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:13:58 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:13:58 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:13:58 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:13:58 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:13:58 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:13:58 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 918 ms
+2020-03-05 17:13:58 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:13:58 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:13:58 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:13:58 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:13:58 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.231 seconds (JVM running for 3.757)
+2020-03-05 17:14:06 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:14:06 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:14:06 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-03-05 17:14:06 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:14:27 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /indexhttp://localhost:8080/index
+2020-03-05 17:14:27 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:15:19 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 7324 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:15:19 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:15:19 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:15:19 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:15:20 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:15:20 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:15:20 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:15:20 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:15:20 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:15:21 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:15:21 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1110 ms
+2020-03-05 17:15:21 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:15:21 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:15:21 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:15:21 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:15:21 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.371 seconds (JVM running for 3.002)
+2020-03-05 17:15:28 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:15:28 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:15:28 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-03-05 17:15:28 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /indexhttp://localhost:8080/index
+2020-03-05 17:15:28 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:15:41 [http-nio-8080-exec-10] INFO  com.hff.component.MyHandlerItercept - /viewhttp://localhost:8080/view
+2020-03-05 17:15:41 [http-nio-8080-exec-10] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:15:48 [http-nio-8080-exec-9] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:22:22 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12024 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:22:22 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:22:22 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:22:22 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:22:23 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:22:24 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:22:24 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:22:24 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:22:24 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:22:24 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:22:24 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1234 ms
+2020-03-05 17:22:24 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:22:24 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:22:24 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:22:24 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:22:24 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.606 seconds (JVM running for 3.244)
+2020-03-05 17:22:32 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:22:32 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:22:32 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-03-05 17:22:32 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:22:32 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 17:22:32 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:22:39 [http-nio-8080-exec-10] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:22:39 [http-nio-8080-exec-6] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 17:22:39 [http-nio-8080-exec-6] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:23:28 [http-nio-8080-exec-8] INFO  com.hff.component.MyHandlerItercept - /view/indexhttp://localhost:8080/view/index
+2020-03-05 17:23:28 [http-nio-8080-exec-8] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:23:28 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 17:23:28 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:23:57 [http-nio-8080-exec-10] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 17:23:57 [http-nio-8080-exec-10] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:26:49 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 5496 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:26:49 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:26:49 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:26:49 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:26:50 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:26:50 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:26:50 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:26:50 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:26:50 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:26:50 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:26:50 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1054 ms
+2020-03-05 17:26:51 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:26:51 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:26:51 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:26:51 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:26:51 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.446 seconds (JVM running for 3.22)
+2020-03-05 17:26:58 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:26:58 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:26:58 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-05 17:26:58 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:26:59 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 17:26:59 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:28:02 [http-nio-8080-exec-6] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:28:02 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 17:28:02 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:29:46 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:29:54 [http-nio-8080-exec-7] INFO  com.hff.component.MyHandlerItercept - /view/typehttp://localhost:8080/view/type
+2020-03-05 17:33:27 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12552 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:33:27 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:33:27 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:33:27 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:33:27 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:33:28 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:33:28 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:33:28 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:33:28 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:33:28 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:33:28 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1150 ms
+2020-03-05 17:33:28 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:33:28 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:33:28 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:33:28 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:33:28 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.377 seconds (JVM running for 2.987)
+2020-03-05 17:33:37 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:33:37 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:33:37 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-05 17:33:37 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:33:37 [http-nio-8080-exec-7] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 17:33:37 [http-nio-8080-exec-7] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:37:48 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 9080 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:37:48 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:37:48 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:37:48 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:37:49 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:37:50 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:37:50 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:37:50 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:37:50 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:37:50 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:37:50 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1184 ms
+2020-03-05 17:37:50 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:37:50 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:37:50 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:37:50 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:37:50 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.595 seconds (JVM running for 3.317)
+2020-03-05 17:37:55 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:37:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:37:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-05 17:37:55 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:37:55 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 17:37:55 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:47:28 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 5064 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:47:28 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:47:28 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:47:28 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:47:28 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:47:29 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:47:29 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:47:29 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:47:29 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:47:29 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:47:29 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1038 ms
+2020-03-05 17:47:29 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:47:29 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:47:29 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:47:29 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:47:29 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.47 seconds (JVM running for 3.339)
+2020-03-05 17:47:37 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:47:37 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:47:37 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-05 17:47:37 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:47:37 [http-nio-8080-exec-7] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 17:47:37 [http-nio-8080-exec-7] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:50:47 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12700 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:50:47 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:50:48 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:50:48 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:50:48 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:50:49 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:50:49 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:50:49 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:50:49 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:50:49 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:50:49 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1117 ms
+2020-03-05 17:50:49 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:50:49 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:50:49 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:50:49 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:50:49 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.543 seconds (JVM running for 3.284)
+2020-03-05 17:50:54 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:50:54 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:50:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-05 17:50:55 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:54:13 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 4740 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:54:13 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:54:13 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:54:13 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:54:14 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:54:14 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:54:14 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:54:14 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:54:14 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:54:14 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:54:14 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1073 ms
+2020-03-05 17:54:15 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:54:15 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:54:15 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:54:15 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:54:15 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.376 seconds (JVM running for 2.968)
+2020-03-05 17:54:19 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:54:19 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:54:19 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-05 17:54:20 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 17:54:20 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 17:55:56 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12136 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 17:55:56 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 17:55:56 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 17:55:56 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 17:55:57 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 17:55:57 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 17:55:57 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:55:57 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 17:55:57 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 17:55:57 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 17:55:57 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 942 ms
+2020-03-05 17:55:57 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 17:55:58 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 17:55:58 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 17:55:58 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 17:55:58 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.248 seconds (JVM running for 2.903)
+2020-03-05 17:56:02 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 17:56:02 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 17:56:02 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-03-05 17:56:03 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 17:56:03 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:02:31 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12736 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 18:02:31 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 18:02:31 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 18:02:31 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 18:02:31 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 18:02:32 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 18:02:32 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:02:32 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 18:02:32 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 18:02:32 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 18:02:32 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1288 ms
+2020-03-05 18:02:32 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:02:33 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 18:02:33 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:02:33 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 18:02:33 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.535 seconds (JVM running for 3.193)
+2020-03-05 18:02:46 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 18:02:46 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 18:02:46 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-05 18:02:46 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:03:00 [http-nio-8080-exec-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 18:03:00 [http-nio-8080-exec-9] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:12:04 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12100 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 18:12:04 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 18:12:04 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 18:12:04 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 18:12:04 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 18:12:05 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 18:12:05 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:12:05 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 18:12:05 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 18:12:05 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 18:12:05 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1067 ms
+2020-03-05 18:12:05 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:12:06 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 18:12:06 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:12:06 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 18:12:06 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.311 seconds (JVM running for 2.92)
+2020-03-05 18:12:17 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 18:12:17 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 18:12:17 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-03-05 18:12:17 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 18:12:18 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:13:52 [Thread-10] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:13:52 [Thread-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-03-05 18:13:53 [Thread-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-03-05 18:13:54 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12100 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 18:13:54 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 18:13:54 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 18:13:54 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 18:13:54 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:13:54 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 18:13:54 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 18:13:54 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 18:13:54 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 403 ms
+2020-03-05 18:13:54 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:13:54 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 18:13:54 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:13:54 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 18:13:54 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 0.822 seconds (JVM running for 111.655)
+2020-03-05 18:13:54 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-05 18:13:58 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 18:13:58 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 18:13:58 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-05 18:13:58 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} inited
+2020-03-05 18:13:58 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:17:46 [Thread-17] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:17:46 [Thread-17] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closing ...
+2020-03-05 18:17:46 [Thread-17] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-2} closed
+2020-03-05 18:17:47 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12100 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 18:17:47 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 18:17:47 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 18:17:47 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 18:17:47 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:17:47 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 18:17:47 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 18:17:47 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 18:17:47 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 356 ms
+2020-03-05 18:17:47 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:17:48 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 18:17:48 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:17:48 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 18:17:48 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 0.966 seconds (JVM running for 344.958)
+2020-03-05 18:17:48 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-03-05 18:17:55 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 18:17:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 18:17:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-05 18:17:55 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-3} inited
+2020-03-05 18:17:55 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /blog.getUser().getHeadPortarit()http://localhost:8080/blog.getUser().getHeadPortarit()
+2020-03-05 18:17:55 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:18:01 [http-nio-8080-exec-6] INFO  org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:469)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-05 18:23:56 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 6632 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 18:23:56 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 18:23:56 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 18:23:56 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 18:23:56 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 18:23:57 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 18:23:57 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:23:57 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 18:23:57 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 18:23:57 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 18:23:57 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1152 ms
+2020-03-05 18:23:57 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:23:58 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 18:23:58 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:23:58 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 18:23:58 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.519 seconds (JVM running for 3.138)
+2020-03-05 18:24:09 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 18:24:09 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 18:24:09 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-03-05 18:24:09 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:24:10 [http-nio-8080-exec-8] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 18:24:10 [http-nio-8080-exec-8] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:24:15 [http-nio-8080-exec-10] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 18:24:37 [http-nio-8080-exec-6] INFO  org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:469)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-05 18:24:37 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 18:24:37 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:28:48 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 10796 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 18:28:48 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 18:28:48 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 18:28:48 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 18:28:49 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 18:28:50 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 18:28:50 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:28:50 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 18:28:50 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 18:28:50 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 18:28:50 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1350 ms
+2020-03-05 18:28:51 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:28:51 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 18:28:51 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:28:51 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 18:28:51 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.981 seconds (JVM running for 3.717)
+2020-03-05 18:28:55 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 18:28:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 18:28:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2020-03-05 18:28:55 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 18:29:04 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:32:22 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 11300 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 18:32:22 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 18:32:22 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 18:32:22 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 18:32:23 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 18:32:23 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 18:32:23 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:32:23 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 18:32:23 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 18:32:23 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 18:32:23 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1032 ms
+2020-03-05 18:32:24 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:32:24 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 18:32:24 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:32:24 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 18:32:24 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.278 seconds (JVM running for 2.953)
+2020-03-05 18:32:34 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 18:32:34 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 18:32:34 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-05 18:32:34 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 18:32:39 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:32:39 [http-nio-8080-exec-8] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 18:32:39 [http-nio-8080-exec-8] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:36:51 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 7232 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 18:36:51 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 18:36:52 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 18:36:52 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 18:36:53 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 18:36:54 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 18:36:54 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:36:54 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 18:36:54 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 18:36:54 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 18:36:54 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2791 ms
+2020-03-05 18:36:55 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:36:55 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 18:36:55 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:36:55 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 18:36:55 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 4.663 seconds (JVM running for 5.922)
+2020-03-05 18:37:15 [http-nio-8080-exec-1] INFO  org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:469)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:260)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-03-05 18:37:22 [http-nio-8080-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 18:37:22 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 18:37:22 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-03-05 18:37:23 [http-nio-8080-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 18:37:23 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:37:23 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 18:37:23 [http-nio-8080-exec-3] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:43:39 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 8756 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 18:43:39 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 18:43:39 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 18:43:39 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 18:43:39 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 18:43:40 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 18:43:40 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:43:40 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 18:43:40 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 18:43:40 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 18:43:40 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1203 ms
+2020-03-05 18:43:41 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:43:41 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 18:43:41 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:43:41 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 18:43:41 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.59 seconds (JVM running for 3.244)
+2020-03-05 18:43:47 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 18:43:47 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 18:43:47 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-03-05 18:43:47 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 18:43:52 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 18:59:42 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 3136 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 18:59:42 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 18:59:42 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 18:59:42 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 18:59:42 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 18:59:43 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 18:59:43 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:59:43 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 18:59:43 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 18:59:43 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 18:59:43 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 973 ms
+2020-03-05 18:59:43 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 18:59:44 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 18:59:44 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 18:59:44 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 18:59:44 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.295 seconds (JVM running for 2.885)
+2020-03-05 18:59:53 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 18:59:53 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 18:59:53 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-03-05 18:59:53 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 19:00:13 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:04:39 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 1928 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 19:04:39 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 19:04:39 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 19:04:39 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 19:04:40 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 19:04:40 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 19:04:40 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:04:40 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 19:04:40 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 19:04:40 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 19:04:40 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1004 ms
+2020-03-05 19:04:41 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 19:04:41 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 19:04:41 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:04:41 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 19:04:41 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.353 seconds (JVM running for 3.076)
+2020-03-05 19:04:49 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 19:04:49 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 19:04:49 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-03-05 19:04:49 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 19:04:57 [http-nio-8080-exec-6] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:08:47 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 8000 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 19:08:47 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 19:08:47 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 19:08:47 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 19:08:47 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 19:08:48 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 19:08:48 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:08:48 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 19:08:48 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 19:08:48 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 19:08:48 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1119 ms
+2020-03-05 19:08:48 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 19:08:49 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 19:08:49 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:08:49 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 19:08:49 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.414 seconds (JVM running for 3.008)
+2020-03-05 19:08:55 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 19:08:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 19:08:55 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-05 19:08:56 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 19:09:05 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:13:43 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 3488 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 19:13:43 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 19:13:43 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 19:13:43 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 19:13:43 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 19:13:44 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 19:13:44 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:13:44 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 19:13:44 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 19:13:44 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 19:13:44 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1063 ms
+2020-03-05 19:13:44 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 19:13:45 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 19:13:45 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:13:45 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 19:13:45 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.583 seconds (JVM running for 3.795)
+2020-03-05 19:13:57 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 19:13:57 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 19:13:57 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-03-05 19:13:57 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 19:14:05 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:28:34 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 6740 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 19:28:34 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 19:28:34 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 19:28:34 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 19:28:35 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 19:28:35 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 19:28:35 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:28:35 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 19:28:35 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 19:28:35 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 19:28:35 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1447 ms
+2020-03-05 19:28:36 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 19:28:36 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 19:28:36 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:28:36 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 19:28:36 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 3.005 seconds (JVM running for 3.697)
+2020-03-05 19:28:46 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 19:28:46 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 19:28:46 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2020-03-05 19:28:46 [http-nio-8080-exec-1] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:28:47 [http-nio-8080-exec-6] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 19:28:47 [http-nio-8080-exec-6] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:29:02 [http-nio-8080-exec-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 19:29:07 [http-nio-8080-exec-4] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:29:07 [http-nio-8080-exec-10] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 19:29:07 [http-nio-8080-exec-10] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:34:20 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 5780 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 19:34:20 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 19:34:20 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 19:34:20 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 19:34:21 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 19:34:21 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 19:34:21 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:34:21 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 19:34:21 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 19:34:21 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 19:34:21 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1121 ms
+2020-03-05 19:34:22 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 19:34:22 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 19:34:22 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:34:22 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 19:34:22 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.31 seconds (JVM running for 2.985)
+2020-03-05 19:34:29 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 19:34:29 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 19:34:29 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-05 19:34:29 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 19:34:29 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 19:34:29 [http-nio-8080-exec-5] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:34:40 [http-nio-8080-exec-6] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:34:41 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 19:34:41 [http-nio-8080-exec-2] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:36:58 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12136 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 19:36:58 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 19:36:58 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 19:36:58 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 19:36:58 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 19:36:59 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 19:36:59 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:36:59 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 19:36:59 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 19:36:59 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 19:36:59 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1211 ms
+2020-03-05 19:36:59 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 19:37:00 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 19:37:00 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:37:00 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 19:37:00 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 2.499 seconds (JVM running for 3.182)
+2020-03-05 19:37:05 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 19:37:05 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 19:37:05 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2020-03-05 19:37:05 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 19:37:09 [http-nio-8080-exec-4] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 19:37:09 [http-nio-8080-exec-4] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error
+2020-03-05 19:40:29 [restartedMain] INFO  com.hff.BlogApplication - Starting BlogApplication on PC-20190523FQVR with PID 12856 (E:\IDEA\MyBlog\target\classes started by Administrator in E:\IDEA\MyBlog)
+2020-03-05 19:40:29 [restartedMain] INFO  com.hff.BlogApplication - No active profile set, falling back to default profiles: default
+2020-03-05 19:40:29 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-05 19:40:29 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-05 19:40:30 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.hff]' package. Please check your configuration.
+2020-03-05 19:40:30 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-03-05 19:40:30 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:40:30 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-03-05 19:40:30 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-05 19:40:30 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-03-05 19:40:30 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1436 ms
+2020-03-05 19:40:31 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-05 19:40:31 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-03-05 19:40:31 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-03-05 19:40:31 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-03-05 19:40:31 [restartedMain] INFO  com.hff.BlogApplication - Started BlogApplication in 3.006 seconds (JVM running for 3.628)
+2020-03-05 19:40:38 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-05 19:40:38 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-03-05 19:40:38 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2020-03-05 19:40:38 [http-nio-8080-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-03-05 19:40:47 [http-nio-8080-exec-4] INFO  com.hff.component.MyHandlerItercept - /favicon.icohttp://localhost:8080/favicon.ico
+2020-03-05 19:40:47 [http-nio-8080-exec-4] INFO  com.hff.component.MyHandlerItercept - /errorhttp://localhost:8080/error

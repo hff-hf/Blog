@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hff.mappers.TCommentMapper">
+
+
+    <insert id="insertComment" parameterType="TComment">
+        insert into comment(content,create_time,nick_name,blog_id,head)
+        values (#{content},#{creatTime},#{nickName},#{blogId},#{head})
+    </insert>
+
+    <select id="selectAllByBlogId" parameterType="Long" resultType="TComment">
+        select * from comment
+        where blog_id=#{blogId}
+    </select>
+
+</mapper>

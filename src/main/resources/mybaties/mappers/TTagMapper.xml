@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hff.mappers.TTagMapper">
+
+    <select id="TagsAndblogs" resultMap="TagsAndblogsMapper">
+        select ta.*,bt.* from tag ta inner join blog_tag bt
+        on ta.t_id=bt.tag_id
+    </select>
+
+
+
+    <resultMap id="TagsAndblogsMapper" type="TTag">
+
+        <id column="t_id" jdbcType="BIGINT" property="tId" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+
+        <collection property="blogTags" ofType="TBlogTags">
+            <result column="blog_id" jdbcType="BIGINT" property="blogId" />
+            <result column="tags_id" jdbcType="BIGINT" property="tagId" />
+
+        </collection>
+    </resultMap>
+
+
+
+<!-- 功能同上-->
+    <select id="TagsAndblogTag" resultMap="TagsAndblogsMapper">
+       		SELECT blog_tag.* ,tag.* from blog_tag,tag
+				where tag.t_id=blog_tag.tag_id
+    </select>
+
+
+
+    <!--<resultMap id="TagsAndblogs_Mapper" type="TTag">-->
+
+        <!--<id column="t_id" jdbcType="BIGINT" property="tId" />-->
+        <!--<result column="name" jdbcType="VARCHAR" property="name" />-->
+
+        <!--<collection property="blogTags" ofType="TBlogTags">-->
+            <!--<result column="blog_id" jdbcType="BIGINT" property="blogId" />-->
+            <!--<result column="tags_id" jdbcType="BIGINT" property="tagId" />-->
+
+            <!--<collection property="blogs" ofType="TBlog">-->
+                <!--<id column="b_id" jdbcType="BIGINT" property="bId" />-->
+                <!--<result column="browse_time" jdbcType="INTEGER" property="browseTime" />-->
+                <!--<result column="content" jdbcType="VARCHAR" property="content" />-->
+                <!--<result column="create_time" jdbcType="TIMESTAMP" property="createTime" />-->
+                <!--<result column="image" jdbcType="VARCHAR" property="image" />-->
+                <!--<result column="sign" jdbcType="VARCHAR" property="sign" />-->
+                <!--<result column="title" jdbcType="VARCHAR" property="title" />-->
+                <!--<result column="type_id" jdbcType="BIGINT" property="typeId" />-->
+                <!--<result column="user_id" jdbcType="BIGINT" property="userId" />-->
+
+            <!--</collection>-->
+
+        <!--</collection>-->
+    <!--</resultMap>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <select id="selectAll" parameterType="Long" resultType="TTag">
+        select * from tag
+
+    </select>
+
+    <insert id="insertTag" parameterType="TTag" >
+        insert into t_tag(name)
+        values (#{name})
+    </insert>
+
+    <delete id="deleteByPrimaryKey" parameterType="Long" >
+        delete from t_tag
+        where id=#{id}
+    </delete>
+
+
+
+
+
+
+</mapper>

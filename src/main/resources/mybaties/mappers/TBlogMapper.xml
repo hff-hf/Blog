@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.hff.mappers.TBlogMapper">
+
+    <resultMap id="TBlogMapper" type="TBlog">
+        <id column="b_id" jdbcType="BIGINT" property="bId" />
+        <result column="browse_time" jdbcType="INTEGER" property="browseTime" />
+        <result column="content" jdbcType="VARCHAR" property="content" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="image" jdbcType="VARCHAR" property="image" />
+        <result column="sign" jdbcType="VARCHAR" property="sign" />
+        <result column="title" jdbcType="VARCHAR" property="title" />
+        <result column="type_id" jdbcType="BIGINT" property="typeId" />
+        <result column="user_id" jdbcType="BIGINT" property="userId" />
+
+        <association property="user" javaType="TUser">
+            <id column="us_id" jdbcType="BIGINT" property="usId" />
+            <result column="email" jdbcType="VARCHAR" property="email" />
+            <result column="nick_name" jdbcType="VARCHAR" property="nickName" />
+            <result column="password" jdbcType="VARCHAR" property="password" />
+            <result column="user_name" jdbcType="VARCHAR" property="userName" />
+            <result column="head" jdbcType="VARCHAR" property="head" />
+
+        </association>
+    </resultMap>
+
+
+
+    <resultMap id="blogCommentsMapper" type="TBlog">
+
+        <id column="b_id" jdbcType="BIGINT" property="bId" />
+        <result column="browse_time" jdbcType="INTEGER" property="browseTime" />
+        <result column="content" jdbcType="VARCHAR" property="content" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="image" jdbcType="VARCHAR" property="image" />
+        <result column="sign" jdbcType="VARCHAR" property="sign" />
+        <result column="title" jdbcType="VARCHAR" property="title" />
+        <result column="type_id" jdbcType="BIGINT" property="typeId" />
+        <result column="user_id" jdbcType="BIGINT" property="userId" />
+        <collection property="comments" ofType="TComment">
+            <id column="c_id" jdbcType="BIGINT" property="cId" />
+            <result column="content" jdbcType="VARCHAR" property="content" />
+            <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+            <result column="email" jdbcType="VARCHAR" property="email" />
+            <result column="nick_name" jdbcType="VARCHAR" property="nickName" />
+            <result column="blog_id" jdbcType="BIGINT" property="blogId" />
+        </collection>
+    </resultMap>
+
+
+    <insert id="insertBlog" parameterType="TBlog" useGeneratedKeys="true" keyProperty="bId" keyColumn="b_id">
+        insert into blog(content,create_time,image,sign,title,type_id,user_id)
+        values (#{content},#{createTime},#{image},#{sign},#{title},#{typeId},#{userId})
+    </insert>
+
+
+    <select id="blogAndUserByBlogId" parameterType="Long" resultMap="TBlogMapper">
+	 select tb.*,tu.*
+        from blog tb inner JOIN user tu
+        on tb.user_id=tu.us_id
+        where tb.b_id=#{bId}
+    </select>
+
+
+    <select id="selectblogComments" parameterType="Long" resultMap="blogCommentsMapper">
+
+        select * from blog tb inner join comment tc
+        on tb.b_id=tc.blog_id
+        where tb.b_id=#{bId}
+    </select>
+
+
+    <select id="selcetAllByTime" resultType="TBlog">
+        select * from blog
+        ORDER BY create_time
+		LIMIT 0,5
+    </select>
+
+
+    <select id="selectAll" resultType="TBlog">
+        select * from blog
+    </select>
+
+    <select id="selcrtTimeGroup" resultType="TBlog">
+        	SELECT create_time from blog
+		   GROUP BY YEAR(create_time)
+    </select>
+
+
+    <select id="researchEveryThings" parameterType="TBlog" resultType="TBlog">
+        		SELECT * from blog
+				where
+				blog.content like #{content}
+				or
+				blog.title like #{title}
+    </select>
+
+
+    <update id="addBrownTime" parameterType="Long">
+        UPDATE blog
+				set browse_time=browse_time+1
+				where b_id=#{bId}
+    </update>
+
+
+
+
+
+
+
+
+
+
+</mapper>
